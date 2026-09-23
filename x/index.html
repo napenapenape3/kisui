@@ -518,7 +518,7 @@ footer {
           <span class="cal-time" data-cal="time">SAT 10:00</span>
         </div>
         <div class="cal-body">
-          <p class="cal-label"><span class="cal-en" data-cal="kind">TICKET SALE</span><span class="cal-head">ADD TO CALENDAR</span></p>
+          <p class="cal-label"><span class="cal-en" data-cal="kind">TICKET SALE REMINDER</span><span class="cal-head">ADD TO CALENDAR</span></p>
           <div class="cal-seg">
             <a data-cal="ics" href="/assets/kisui-sale.ics">iOS</a>
             <a data-cal="google" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Nape%20presents%20%E2%80%9CKISUI%E2%80%9D%20%E3%83%81%E3%82%B1%E3%83%83%E3%83%88%E7%99%BA%E5%A3%B2&amp;dates=20260926T010000Z/20260926T011500Z&amp;details=%E5%89%8D%E5%A3%B2%E3%83%81%E3%82%B1%E3%83%83%E3%83%88%E7%99%BA%E5%A3%B2%EF%BC%88LivePocket%EF%BC%89%0Ahttps%3A%2F%2Flivepocket.jp%2Fe%2Fr_v92%0A%0A%E7%89%B9%E8%A8%AD%E3%82%B5%E3%82%A4%E3%83%88%20https%3A%2F%2Fkisui.thisisnape.com%2F" target="_blank" rel="noopener">Google</a>
@@ -597,7 +597,7 @@ footer {
     var cal = document.getElementById("cal");
     if (cal) cal.hidden = true;
   } else if (now >= SALE_START) {
-    set("kind", "SHOW DAY");
+    set("kind", "SHOW DAY REMINDER");
     var calBox = document.getElementById("cal");
     if (calBox) calBox.setAttribute("aria-label", "公演日をカレンダーに追加");
     set("mon", "FEB"); set("day", "05"); set("time", "FRI 19:00");

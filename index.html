@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nape presents “KISUI” | 2027.02.05 FRI at TOKIO TOKYO</title>
+<meta name="description" content="Nape 自主企画ライブ “KISUI”。2027年2月5日（金）渋谷 TOKIO TOKYO。海水と淡水が交わる「汽水域」のように、2つのバンドの音楽が交わる一夜。チケットは2026年9月26日（土）10:00発売。">
+<link rel="canonical" href="https://kisui.thisisnape.com/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Nape">
+<meta property="og:title" content="Nape presents “KISUI” — 2027.02.05 FRI at TOKIO TOKYO">
+<meta property="og:description" content="海水と淡水が交わる「汽水域」のように、2つのバンド、それぞれの音楽が交わる一夜。チケット 2026.9.26 SAT 10:00 発売。">
+<meta property="og:url" content="https://kisui.thisisnape.com/">
+<meta property="og:image" content="https://kisui.thisisnape.com/assets/ogp.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#1b2552">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="preload" href="/assets/archivo.woff2" as="font" type="font/woff2" crossorigin>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MusicEvent",
+  "name": "Nape presents “KISUI”",
+  "startDate": "2027-02-05T19:00:00+09:00",
+  "doorTime": "2027-02-05T18:30:00+09:00",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+    "@type": "Place",
+    "name": "TOKIO TOKYO",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "宇田川町3-7 B1",
+      "addressLocality": "渋谷区",
+      "addressRegion": "東京都",
+      "addressCountry": "JP"
+    }
+  },
+  "image": ["https://kisui.thisisnape.com/assets/ogp.png"],
+  "performer": [{ "@type": "MusicGroup", "name": "Nape" }],
+  "organizer": { "@type": "MusicGroup", "name": "Nape", "url": "https://nape.bitfan.id/" },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://livepocket.jp/e/r_v92",
+    "price": "3500",
+    "priceCurrency": "JPY",
+    "validFrom": "2026-09-26T10:00:00+09:00",
+    "availability": "https://schema.org/InStock"
+  }
+}
+</script>
+
+<style>
+@font-face {
+  font-family: "Archivo";
+  src: url("/assets/archivo.woff2") format("woff2");
+  font-weight: 100 900;
+  font-stretch: 62% 125%;
+  font-display: swap;
+}
+
+:root {
+  --navy: #1b2552;
+  --navy-deep: #111735;
+  --ink: #16181f;
+  --ink-soft: #4a4f5c;
+  --mist: #eceff4;
+  --paper: #f6f7f9;
+  --brown: #2a211d;
+  --line: rgba(22, 24, 31, .14);
+  --wide: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --jp: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Noto Sans JP", "Yu Gothic", "Meiryo", sans-serif;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--jp);
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+
+.wide {
+  font-family: var(--wide);
+  font-stretch: 125%;
+  letter-spacing: .02em;
+}
+
+/* ---------- HERO ---------- */
+.hero {
+  position: relative;
+  min-height: 100svh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  padding: 72px 20px 40px;
+  color: #fff;
+  overflow: hidden;
+  isolation: isolate;
+  background: #c9cdd6;
+}
+.hero::before,
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: -20%;
+  z-index: -1;
+}
+/* 海（深い藍）と淡水（明るい白）と土（暗い茶）が混じり合うグラデーション */
+.hero::before {
+  background:
+    radial-gradient(60% 55% at 12% 8%, #16215a 0%, rgba(22,33,90,.85) 30%, rgba(22,33,90,0) 70%),
+    radial-gradient(55% 50% at 92% 6%, #1d1511 0%, rgba(29,21,17,.8) 35%, rgba(29,21,17,0) 72%),
+    radial-gradient(60% 45% at 30% 95%, #f3f5fa 0%, rgba(243,245,250,0) 70%),
+    radial-gradient(50% 55% at 95% 75%, #8d8683 0%, rgba(141,134,131,0) 70%),
+    linear-gradient(170deg, #3a4a86 0%, #9aa3bf 45%, #e7e9ef 70%, #b8b3b1 100%);
+  animation: drift 22s ease-in-out infinite alternate;
+}
+.hero::after {
+  background: radial-gradient(40% 30% at 60% 55%, rgba(255,255,255,.35), rgba(255,255,255,0) 70%);
+  animation: drift2 17s ease-in-out infinite alternate;
+  mix-blend-mode: soft-light;
+}
+@keyframes drift {
+  0%   { transform: translate3d(0, 0, 0) scale(1); }
+  100% { transform: translate3d(-3%, 2%, 0) scale(1.06); }
+}
+@keyframes drift2 {
+  0%   { transform: translate3d(-6%, 4%, 0); }
+  100% { transform: translate3d(6%, -4%, 0); }
+}
+
+.hero-main {
+  align-self: center;
+  text-align: center;
+  padding-bottom: 8vh;
+}
+.presented {
+  font-family: var(--wide);
+  font-weight: 600;
+  font-size: clamp(14px, 3.6vw, 22px);
+  letter-spacing: .04em;
+  margin: 0 0 .6em;
+}
+.title {
+  margin: 0;
+  font-family: var(--wide);
+  font-stretch: 125%;
+  font-weight: 900;
+  font-size: clamp(64px, 19vw, 200px);
+  line-height: .95;
+  letter-spacing: -.01em;
+}
+.title .q { font-weight: 900; }
+
+.hero-info {
+  text-align: center;
+  color: var(--ink);
+}
+.hero-date {
+  font-family: var(--wide);
+  font-stretch: 112%;
+  font-weight: 500;
+  font-size: clamp(18px, 5vw, 30px);
+  line-height: 1.5;
+  margin: 0;
+}
+.hero-time {
+  font-family: var(--wide);
+  font-stretch: 112%;
+  font-weight: 500;
+  font-size: clamp(14px, 3.8vw, 22px);
+  margin: 0 0 1.4em;
+  letter-spacing: .03em;
+}
+.hero-venue {
+  font-family: var(--wide);
+  font-weight: 900;
+  font-stretch: 125%;
+  font-size: clamp(16px, 4.2vw, 24px);
+  letter-spacing: .06em;
+  margin: 0;
+}
+.scroll-cue {
+  margin-top: 28px;
+  font-family: var(--wide);
+  font-size: 11px;
+  letter-spacing: .3em;
+  color: var(--ink-soft);
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* ---------- SECTIONS ---------- */
+main { position: relative; }
+section {
+  padding: 88px 20px;
+  border-top: 1px solid var(--line);
+}
+.inner { max-width: 720px; margin: 0 auto; }
+.label {
+  font-family: var(--wide);
+  font-stretch: 125%;
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: .28em;
+  color: var(--navy);
+  margin: 0 0 28px;
+}
+
+/* concept */
+.concept {
+  background: linear-gradient(180deg, var(--mist) 0%, var(--paper) 100%);
+}
+.concept p {
+  font-size: clamp(16px, 4.2vw, 19px);
+  line-height: 2.2;
+  margin: 0 0 1.6em;
+  letter-spacing: .04em;
+}
+.concept p:last-child { margin-bottom: 0; }
+.ph { display: inline-block; }
+
+/* lineup */
+.lineup-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 20px;
+}
+.lineup-list li { display: flex; align-items: center; gap: 20px; }
+.lineup-logo {
+  width: 168px;
+  flex: 0 0 auto;
+  border-radius: 2px;
+}
+.lineup-more {
+  font-family: var(--wide);
+  font-stretch: 125%;
+  font-weight: 800;
+  font-size: clamp(22px, 6vw, 32px);
+  color: var(--ink-soft);
+}
+.lineup-note { margin: 20px 0 0; color: var(--ink-soft); font-size: 14px; }
+
+/* info table */
+.info {
+  display: grid;
+  grid-template-columns: 7.5rem 1fr;
+  margin: 0;
+  border-top: 1px solid var(--line);
+}
+.info dt, .info dd {
+  margin: 0;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--line);
+}
+.info dt {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--ink-soft);
+  padding-right: 12px;
+}
+.info dd { font-size: 16px; }
+.en { font-family: var(--wide); font-stretch: 105%; letter-spacing: .02em; }
+
+.price { width: 100%; border-collapse: collapse; }
+.price th, .price td { text-align: left; padding: 2px 0; font-weight: 400; }
+.price th { font-weight: 700; padding-right: 1.2em; white-space: nowrap; }
+.price td { font-family: var(--wide); font-stretch: 105%; }
+.price td small { font-family: var(--jp); font-size: 12px; color: var(--ink-soft); }
+.muted { color: var(--ink-soft); font-size: 14px; }
+
+/* ticket */
+.ticket {
+  background: var(--navy-deep);
+  color: #fff;
+  border-top: 0;
+  text-align: center;
+}
+.ticket .label { color: #aeb8e0; }
+.sale-date {
+  font-family: var(--wide);
+  font-stretch: 118%;
+  font-weight: 700;
+  font-size: clamp(20px, 6vw, 34px);
+  margin: 0 0 6px;
+  letter-spacing: .02em;
+}
+.sale-sub { margin: 0 0 32px; color: #c9cfe6; font-size: 14px; }
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .6em;
+  min-height: 56px;
+  padding: 14px 36px;
+  border-radius: 999px;
+  background: #fff;
+  color: var(--navy-deep);
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+  transition: transform .15s ease, background .15s ease;
+}
+.btn:hover { transform: translateY(-1px); background: var(--mist); }
+.btn:focus-visible { outline: 3px solid #9fb0ff; outline-offset: 3px; }
+.btn .arrow { font-family: var(--wide); }
+.ticket-note { margin: 18px 0 0; font-size: 13px; color: #aeb8e0; }
+
+/* access */
+.map-link {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 14px;
+  color: var(--navy);
+  font-weight: 700;
+}
+
+/* credits / footer */
+.credits { font-size: 14px; }
+.credits .info dd { font-size: 14px; }
+footer {
+  background: var(--brown);
+  color: #d9d2cd;
+  padding: 48px 20px calc(48px + env(safe-area-inset-bottom));
+  text-align: center;
+  font-size: 13px;
+}
+.foot-links {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px 28px;
+}
+.foot-links a {
+  font-family: var(--wide);
+  font-stretch: 118%;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-decoration: none;
+  font-size: 13px;
+  color: #fff;
+}
+.foot-links a:hover { text-decoration: underline; }
+.copy { font-family: var(--wide); letter-spacing: .1em; margin: 0; }
+
+/* sticky ticket bar (mobile) */
+.sticky {
+  position: fixed;
+  left: 12px; right: 12px;
+  bottom: calc(12px + env(safe-area-inset-bottom));
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  transform: translateY(160%);
+  transition: transform .3s ease;
+  pointer-events: none;
+}
+.sticky.show { transform: none; pointer-events: auto; }
+.sticky .btn {
+  width: 100%;
+  max-width: 420px;
+  background: var(--navy);
+  color: #fff;
+  box-shadow: 0 8px 24px rgba(17, 23, 53, .35);
+}
+@media (min-width: 820px) {
+  .sticky { display: none; }
+  section { padding: 120px 40px; }
+  .info { grid-template-columns: 10rem 1fr; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero::before, .hero::after { animation: none; }
+  html { scroll-behavior: auto; }
+  .btn, .sticky { transition: none; }
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-main">
+    <p class="presented">Presented by Nape.</p>
+    <h1 class="title"><span class="q">“</span>KISUI<span class="q">”</span></h1>
+  </div>
+  <div class="hero-info">
+    <p class="hero-date">2027.02.05 (FRI)</p>
+    <p class="hero-time">OPEN 18:30 / START 19:00</p>
+    <p class="hero-venue">TOKIO TOKYO</p>
+    <a class="scroll-cue" href="#concept">SCROLL ↓</a>
+  </div>
+</header>
+
+<main>
+  <section class="concept" id="concept">
+    <div class="inner">
+      <h2 class="label">CONCEPT</h2>
+      <p><span class="ph">海水と淡水が交わる</span><span class="ph">「汽水域」のように、</span><br><span class="ph">2つのバンド、</span><span class="ph">それぞれの音楽が交わる一夜。</span></p>
+      <p><span class="ph">異なる個性が交わることで生まれる、</span><br><span class="ph">新しい音楽の景色。</span><br><span class="ph">その間に生まれるものを、</span><span class="ph">楽しんでほしい。</span></p>
+    </div>
+  </section>
+
+  <section id="lineup">
+    <div class="inner">
+      <h2 class="label">LINE UP</h2>
+      <ul class="lineup-list">
+        <li><img class="lineup-logo" src="/assets/nape-logo.png" width="213" height="117" alt="Nape"></li>
+        <li><span class="lineup-more">and more…</span></li>
+      </ul>
+      <p class="lineup-note">対バンは後日発表します。お楽しみに。</p>
+    </div>
+  </section>
+
+  <section id="info">
+    <div class="inner">
+      <h2 class="label">INFORMATION</h2>
+      <dl class="info">
+        <dt>公演名</dt>
+        <dd>Nape presents <span class="en">“KISUI”</span></dd>
+
+        <dt>日程</dt>
+        <dd>2027年2月5日（金）<br><span class="en">OPEN 18:30 / START 19:00</span></dd>
+
+        <dt>会場</dt>
+        <dd><span class="en">TOKIO TOKYO</span>（渋谷）</dd>
+
+        <dt>前売</dt>
+        <dd>
+          <table class="price">
+            <tr><th>一般</th><td>¥3,500 <small>（税込）</small></td></tr>
+            <tr><th>学生</th><td>¥2,000 <small>（税込）</small></td></tr>
+          </table>
+        </dd>
+
+        <dt>当日</dt>
+        <dd>
+          <table class="price">
+            <tr><th>一般</th><td>¥4,000 <small>（税込）</small></td></tr>
+            <tr><th>学生</th><td>¥2,500 <small>（税込）</small></td></tr>
+          </table>
+          <span class="muted">※ 入場時に別途ドリンク代が必要です。</span>
+        </dd>
+
+        <dt>チケット発売</dt>
+        <dd>2026年9月26日（土）10:00〜</dd>
+      </dl>
+    </div>
+  </section>
+
+  <section class="ticket" id="ticket">
+    <div class="inner">
+      <h2 class="label">TICKET</h2>
+      <p class="sale-date" data-sale="headline">2026.09.26 SAT 10:00〜</p>
+      <p class="sale-sub" data-sale="sub">LivePocketにて前売チケット発売</p>
+      <a class="btn" data-sale="btn" href="https://livepocket.jp/e/r_v92" target="_blank" rel="noopener">
+        <span data-sale="btn-label">チケット販売ページへ</span><span class="arrow" aria-hidden="true">→</span>
+      </a>
+      <p class="ticket-note">LivePocket（外部サイト）に移動します。</p>
+    </div>
+  </section>
+
+  <section id="access">
+    <div class="inner">
+      <h2 class="label">ACCESS</h2>
+      <dl class="info">
+        <dt>会場</dt>
+        <dd><span class="en">TOKIO TOKYO</span></dd>
+        <dt>住所</dt>
+        <dd>東京都渋谷区宇田川町3-7 B1<br>
+          <a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=TOKIO%20TOKYO%20%E6%B8%8B%E8%B0%B7%E5%8C%BA%E5%AE%87%E7%94%B0%E5%B7%9D%E7%94%BA3-7" target="_blank" rel="noopener">Google マップで開く →</a>
+        </dd>
+        <dt>最寄駅</dt>
+        <dd>渋谷駅から徒歩約7分（渋谷PARCO横）</dd>
+      </dl>
+    </div>
+  </section>
+
+  <section class="credits" id="credits">
+    <div class="inner">
+      <h2 class="label">CREDITS</h2>
+      <dl class="info">
+        <dt>主催</dt>
+        <dd><span class="en">Nape</span></dd>
+        <dt>企画・制作</dt>
+        <dd><span class="en">Sony Music Publishing (Japan) Inc.</span></dd>
+        <dt>お問い合わせ</dt>
+        <dd><a href="https://nape.bitfan.id/owner_contact_forms/new" target="_blank" rel="noopener">お問い合わせフォーム</a></dd>
+      </dl>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <ul class="foot-links">
+    <li><a href="https://nape.bitfan.id/" target="_blank" rel="noopener">OFFICIAL SITE</a></li>
+    <li><a href="https://www.instagram.com/thisisnape/" target="_blank" rel="noopener">INSTAGRAM</a></li>
+  </ul>
+  <p class="copy">© Nape</p>
+</footer>
+
+<div class="sticky" id="sticky" aria-hidden="true">
+  <a class="btn" href="https://livepocket.jp/e/r_v92" target="_blank" rel="noopener" tabindex="-1">
+    <span data-sale="sticky-label">チケット 9/26(土) 10:00 発売</span><span class="arrow" aria-hidden="true">→</span>
+  </a>
+</div>
+
+<script>
+(function () {
+  // 表示の切り替え：発売前 → 発売中 → 公演終了
+  var SALE_START = new Date("2026-09-26T10:00:00+09:00");
+  var SHOW_END   = new Date("2027-02-05T23:59:00+09:00");
+  var now = new Date();
+
+  function set(key, text) {
+    var el = document.querySelector('[data-sale="' + key + '"]');
+    if (el) el.textContent = text;
+  }
+
+  if (now >= SHOW_END) {
+    set("headline", "公演は終了しました");
+    set("sub", "ご来場いただいた皆さま、ありがとうございました！");
+    var btn = document.querySelector('[data-sale="btn"]');
+    if (btn) btn.hidden = true;
+    var note = document.querySelector(".ticket-note");
+    if (note) note.hidden = true;
+    var s = document.getElementById("sticky");
+    if (s) s.remove();
+  } else if (now >= SALE_START) {
+    set("headline", "前売チケット 発売中");
+    set("sub", "LivePocketにて販売中");
+    set("btn-label", "チケットを購入する");
+    set("sticky-label", "チケットを購入する");
+  }
+
+  // スマホ：ヒーローを過ぎたら下部にチケットボタンを出す（チケット欄が見えている間は隠す）
+  var sticky = document.getElementById("sticky");
+  var hero = document.querySelector(".hero");
+  var ticket = document.getElementById("ticket");
+  if (!sticky || !("IntersectionObserver" in window)) return;
+  var heroVisible = true, ticketVisible = false;
+  function update() {
+    var show = !heroVisible && !ticketVisible;
+    sticky.classList.toggle("show", show);
+    sticky.setAttribute("aria-hidden", show ? "false" : "true");
+    sticky.querySelector("a").tabIndex = show ? 0 : -1;
+  }
+  new IntersectionObserver(function (e) { heroVisible = e[0].isIntersecting; update(); }, { threshold: 0.15 }).observe(hero);
+  new IntersectionObserver(function (e) { ticketVisible = e[0].isIntersecting; update(); }, { threshold: 0 }).observe(ticket);
+})();
+</script>
+</body>
+</html>

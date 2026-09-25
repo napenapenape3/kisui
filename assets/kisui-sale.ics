@@ -8,12 +8,12 @@ UID:kisui-sale-20260926@thisisnape.com
 DTSTAMP:20260923T074125Z
 DTSTART:20260926T010000Z
 DTEND:20260926T011500Z
-SUMMARY:Nape presents “KISUI” チケット発売
+SUMMARY:Presented by Nape. “KISUI” チケット発売
 DESCRIPTION:前売チケット発売（LivePocket）\nhttps://livepocket.jp/e/r_v92
 URL:https://kisui.thisisnape.com/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Nape presents “KISUI” チケット発売
+DESCRIPTION:Presented by Nape. “KISUI” チケット発売
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT

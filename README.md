@@ -1,4 +1,4 @@
-# Nape presents "KISUI" 特設サイト
+# Presented by Nape. "KISUI" 特設サイト
 
 https://kisui.thisisnape.com/
 
